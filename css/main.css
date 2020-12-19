@@ -21,7 +21,7 @@ img {
 
 /*====== Start Header ======*/
 
-/* .wrapper */
+/* (.wrapper) to add gap between all the element inside the wrapper class */
 
 .wrapper {
   display: grid;
@@ -43,7 +43,7 @@ img {
   background-size: cover;
   background-position: bottom right;
   padding: 50px;
-  display: flex;
+  display: flex; /* flex box work much better here */
   flex-direction: column;
   align-items: start;
   justify-content: center;
@@ -83,11 +83,11 @@ img {
 
 .menu ul {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 10px;
   padding: 0;
   margin: 20px 0;
   list-style: none;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .menu a {
@@ -126,6 +126,7 @@ img {
 .feature .icon {
   font-size: 50px;
 }
+
 .feature p {
   color: rgba(0, 0, 0, 0.5);
 }
