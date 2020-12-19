@@ -3,7 +3,8 @@
    These are the final styles for the project.
    Author:   Saddam Arbaa
    Website:  TODO
-			========================================== */
+   ========================================== */
+
 body {
   font-size: 15px;
 }
@@ -17,3 +18,91 @@ button {
 img {
   max-width: 100%;
 }
+
+/*====== Start Header ======*/
+
+/* .wrapper */
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.top {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "hero hero cta1"
+    "hero hero cta2";
+}
+
+.hero {
+  grid-area: hero;
+  min-height: 400px;
+  background: white url(/images/taco.jpg);
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.hero > * {
+  background: var(--yellow);
+  padding: 5px;
+}
+
+.cta {
+  background: var(--yellow);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.cta p {
+  margin: 0;
+}
+
+.cta1 {
+  grid-area: cta1;
+}
+
+.cta2 {
+  grid-area: cta2;
+}
+
+.price {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+/* Navigation */
+
+.menu ul {
+  display: grid;
+  grid-gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.menu a {
+  background: var(--yellow);
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: var(--black);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+[aria-controls="menu-list"] {
+  display: none;
+}
+
+/*====== End Header ======*/
