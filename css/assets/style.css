@@ -49,7 +49,7 @@ h6 {
   margin: 0 0 5px 0;
 }
 
-/* Each item in our grid will contain numbers */
+/* Each item in our grid will contain numbers   */
 .item {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;

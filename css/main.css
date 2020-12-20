@@ -5,9 +5,9 @@
    Website:  TODO
    ========================================== */
 
-body {
-  font-size: 15px;
-}
+/*====== Start creating My own Framework for some repeated styles(Main Rulez) ======*/
+
+body {font-size: 15px;}
 
 button {
   background: #ffc600;
@@ -15,15 +15,11 @@ button {
   padding: 10px 20px;
 }
 
-img {
-  max-width: 100%;
-}
+img {max-width: 100%;}
 
 /*====== Start Header ======*/
 
-/* (.wrapper) to add gap between all the element inside the wrapper class */
-
-.wrapper {
+.wrapper {   /* (.wrapper) to add gap between all the element inside the wrapper class */
   display: grid;
   grid-gap: 20px;
 }
@@ -62,17 +58,11 @@ img {
   align-content: center;
 }
 
-.cta p {
-  margin: 0;
-}
+.cta p {margin: 0;}
 
-.cta1 {
-  grid-area: cta1;
-}
+.cta1 {grid-area: cta1;}
 
-.cta2 {
-  grid-area: cta2;
-}
+.cta2 {grid-area: cta2;}
 
 .price {
   font-size: 60px;
@@ -101,9 +91,7 @@ img {
   font-size: 20px;
 }
 
-[aria-controls="menu-list"] {
-  display: none;
-}
+[aria-controls="menu-list"] {display: none;}
 
 /*====== End Header ======*/
 
@@ -123,13 +111,9 @@ img {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
-.feature .icon {
-  font-size: 50px;
-}
+.feature .icon {font-size: 50px;}
 
-.feature p {
-  color: rgba(0, 0, 0, 0.5);
-}
+.feature p {color: rgba(0, 0, 0, 0.5);}
 
 /*====== END Features! ======*/
 
@@ -153,9 +137,7 @@ img {
   grid-gap: 20px;
 }
 
-.gallery img {
-  width: 100%;
-}
+.gallery img {width: 100%;}
 
 .gallery h2 {
   grid-column: 1/-1;
@@ -170,16 +152,10 @@ img {
   display: block;
   content: "";
   height: 10px;
-  background: linear-gradient(
-    to var(--direction, left),
-    var(--yellow),
-    transparent
-  );
+  background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
 }
 
-.gallery h2:after {
-  --direction: right;
-}
+.gallery h2:after {--direction: right;}
 
 /*====== End gallery ======*/
 
