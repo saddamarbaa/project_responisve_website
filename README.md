@@ -1,5 +1,5 @@
 # Project: Responsive Website Using CSS Grid 
-Project: Build a Responsive Grid CSS Website From Scratch using modern CSS features and techniques like CSS variables, and flexbox 
+Project: Build a Responsive Grid CSS Website From Scratch With Modern CSS features and Techniques like CSS Variables, and Flexbox
 
 Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/responisve-website/)
 
